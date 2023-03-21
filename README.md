@@ -34,7 +34,7 @@ The combination of MxNet, MTCNN and ArcFace gives us edge in following ways:
 6) Predicting the face through the model
 
 
-<img src = 'https://www.starlinkindia.com/blog/wp-content/uploads/2019/05/Biometrics-Face-Recognition-How-Does-it-work.jpg' style = 'display: block;width:300px'></img>
+<img src = 'https://www.starlinkindia.com/blog/wp-content/uploads/2019/05/Biometrics-Face-Recognition-How-Does-it-work.jpg' style = 'display: block;width:300px;display: block; margin-left: auto; margin-right: auto;'></img>
 
 <a name = 'mx'></a>
 ## MxNet:
@@ -43,7 +43,6 @@ The subject of face recognition has made substantial use of the potent deep lear
 <a name = 'mt'></a>
 ## MTCNN
 
-<img src = 'https://www.researchgate.net/profile/Alem-Fitwi/publication/341148320/figure/fig3/AS:887674495844353@1588649500279/MTCNN-Stage-architecture-of-the-model-used-for-face-detection-and-landmark-extraction.jpg' style = 'display:block;width:300px;'></img>
 The Multi-Task Cascaded Convolutional Neural Network (MTCNN) has a number of advantages over conventional face identification methods, including:
 
 
