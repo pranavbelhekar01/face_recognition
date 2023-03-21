@@ -1,35 +1,50 @@
-# <center>Drishti</center>
+# <center>DRISHTI</center>
 ___
 
-Drishti a FRT(Face Recognition technology) used to identify people is developed on Mxnet deep learning framework and applies mtcnnn for face detection and arcface for face recognition.
+## Content
 
+- [Comparative Analysis](#analysis)
+- [Steps](#steps)
+- [MxNet](#mx)
+- [MTCNN](#mt)
+- [ArcFace](arc)
+- [Use Case](#usecase)
+- [File Description](#filed)
+
+Drishti a FRT(Face Recognition technology) used to identify people is developed on Mxnet deep learning framework and applies MTCNN for face detection and ArcFace for face recognition.
+
+<a name = 'analysis'></a>
 ## Comparative Analysis:
 The combination of MxNet, MTCNN and ArcFace gives us edge in following ways:
 
+- Real time face Recognition
+- Works in dim lighting, occlusion and different orientation
+- Low false positive rate
+- Distinguishing information from faces even under difficult situations
+- Able to identify faces with/without mask and glasses on a single train photo capture.
 
-
-
-
-
+<a name = 'steps'></a>
 ## Steps:
 
 1) Live camera intake
-2) 
-
-
-
-
+2) Face Detection through mtcnn
+3) Face Embedding 
+4) Training Mxnet customized model
+5) Saving the model and embeddings
+6) Predicting the face through the model
 
 
 <img src = 'https://www.starlinkindia.com/blog/wp-content/uploads/2019/05/Biometrics-Face-Recognition-How-Does-it-work.jpg' style = 'display: block;width:300px'></img>
 
+<a name = 'mx'></a>
 ## MxNet:
 The subject of face recognition has made substantial use of the potent deep learning framework MXNet. MXNet's versatility and scalability, which enable it to easily handle big datasets and complex models, are among its key features.MXNet is a great option for real-time face recognition applications due to its excellent performance and effective memory utilisation. 
 
+<a name = 'mt'></a>
 ## MTCNN
 
 <img src = 'https://www.researchgate.net/profile/Alem-Fitwi/publication/341148320/figure/fig3/AS:887674495844353@1588649500279/MTCNN-Stage-architecture-of-the-model-used-for-face-detection-and-landmark-extraction.jpg' style = 'display:block;width:300px;'></img>
-The Multi-Task Cascaded Convolutional Neural Network (MTCCNN) has a number of advantages over conventional face identification methods, including:
+The Multi-Task Cascaded Convolutional Neural Network (MTCNN) has a number of advantages over conventional face identification methods, including:
 
 
 
@@ -47,6 +62,7 @@ The Multi-Task Cascaded Convolutional Neural Network (MTCCNN) has a number of ad
 
 5. Low false positive rate: Because of MTCNN's low false positive rate, it is less likely to mistakenly identify non-faces as faces.
 
+<a name = 'arc'></a>
 ## ArcFace
 <img src = 'https://learnopencv.com/wp-content/uploads/2020/07/arcface.jpg' style = 'display:block;'></img>
 
@@ -61,6 +77,21 @@ The Multi-Task Cascaded Convolutional Neural Network (MTCCNN) has a number of ad
 
 - Extracts distinguishing information from faces even under difficult situations.
 
+<a name = 'usecase'></a>
+## Use Case:
 
-## GAN 
+Face Recognition Technology in Security
+
+Steps:
+
+- Creating a proper dataset for photos with description
+  eg. aadhar card photos government dataset
+- Training our model on the existing dataset. Incase new registry add the photo to datasett and train the model.
+- The authorities have the access to live feed from public cameras.
+- With help of FRT model identify/locate the criminal from videos.
+- Authorities can also take help from social media photos to narrow down the search.
+
+<a name = 'filed'></a>
+## File Description
+
 
